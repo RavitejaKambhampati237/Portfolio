@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+.job {
+    margin-bottom: 1.5rem;
+}
+
+.job ul {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+}
