@@ -41,3 +41,10 @@ footer {
     padding-left: 1.5rem;
     list-style-type: disc;
 }
+.profile-image{
+    width: 150px; /* Adjust the size */
+    height: 150px; /* Maintain aspect ratio if omitted */
+    border-radius: 50%; /* Makes the image circular */
+    margin: 20px auto; /* Centers the image */
+    display: block; /* Ensures it's treated as a block element */
+}
