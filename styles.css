@@ -343,10 +343,10 @@ ul {
 }
 
 .profile-image {
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: fill;
   border: 10px solid white;
   box-shadow: var(--box-shadow);
   transition: var(--transition);
@@ -1190,8 +1190,8 @@ footer {
   }
 
   .profile-image {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
   }
 
   .btn {
