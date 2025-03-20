@@ -1,136 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ravi Teja Kambhampati Portfolio</title>
-    <img src="ResumePicture.jpg" alt="Ravi Teja Kambhampati" class="profile-image">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="header-content">
-            <h1 class="animated-text">Ravi Teja Kambhampati</h1>
-            <p>Aspiring Software Engineer | Front-End Developer | Data Analyst</p>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#experience">Experience</a>
-                <a href="#certifications">Certifications</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
-    </header>
-    <br>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ravi Teja Kambhampati | Full-Stack Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <section id="about">
-        <div class="about-container">
-            <h2>About Me</h2>
-            <p>
-                Currently pursuing a <strong>Master’s in Computer Science</strong>, I am a 
-                <strong>JavaScript Developer</strong> with expertise in <strong>React.js</strong> and also i am passionate in 
-                <strong>Data Analytics</strong>. I specialize in building scalable front-end 
-                applications and leveraging <strong>AWS Cloud services</strong>.  
-            </p>
-            <p>
-                Passionate about <strong>AI and Machine Learning</strong>, I have hands-on experience 
-                in deep learning and <strong>speech recognition</strong>. I thrive on problem-solving 
-                and optimizing system performance for <strong>data-driven applications</strong>.
-            </p>
-            <a href="RaviTeja_Resume.pdf" download class="btn">📄 Download Resume</a>
-            <a href="RaviTeja_Kambhampati_coverletter.pdf" download class="btn">📜 Download Cover Letter</a>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <h1>RK</h1>
         </div>
-    </section>
-<br>
-    <section id="skills">
-        <div class="skills-container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-box"><strong>Languages:</strong> Python, JavaScript, Java, C</div>
-                <div class="skill-box"><strong>Additional:</strong> Data Structures, OOP</div>
-                <div class="skill-box"><strong>Web Technologies:</strong> HTML, CSS</div>
-                <div class="skill-box"><strong>Frameworks & Libraries:</strong> ReactJS, Scikit-learn, Pandas, NumPy, Bootstrap, Tailwind</div>
-                <div class="skill-box"><strong>Developer Tools:</strong> Linux, Unix, PowerShell, Shell Scripting, Excel, Git</div>
-                <div class="skill-box"><strong>Databases:</strong> SQL, MySQL</div>
-                <div class="skill-box"><strong>Cloud:</strong> AWS</div>
-            </div>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-    </section>
-    <br>
-    <section id="projects">
-        <div class="projects-container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <a href="https://github.com/RavitejaKambhampati237/uber_data_analysis" class="project-card">
-                    <h3>Uber Data Analysis</h3>
-                    <p>“I worked on analyzing the Uber trip dataset, focusing on data cleaning, handling missing values and outliers, and ensuring data consistency. I performed exploratory data analysis (EDA) using various visualizations to uncover trends in trip patterns, mileage distribution, and trip purposes. I also used statistical techniques to gain insights into the distribution of business vs. personal trips and their mileage patterns.”</p>
-                    <p><strong>Tools:</strong>Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn</p>
-                </a>
-                <a href="" class="project-card">
-                    <h3>Real Time Threat Intelligence </h3>
-                    <p>Developed a comprehensive full stack application integrating various modules including Asset Management, Threat
-                        Intelligence, Vulnerability Risk Assessment, Incident Response, and Crisis Management.Implemented two factor authentication for login and Signup.</p>
-                    <p><strong>Tools:</strong> ReactJS, NodeJS, HTML, CSS, Javascript, MongoDB</p>
-                </a>
-                <a href="https://github.com/RavitejaKambhampati237/project_management" class="project-card">
-                    <h3>Project Management Application</h3>
-                    <p>I developed a project management application using React, enabling users to create and manage projects, tasks, and track due dates. I implemented features for task management, such as adding, viewing, and deleting tasks, to help streamline project workflows. The application was built with a fully responsive design using Tailwind CSS, ensuring a seamless experience across desktop and mobile devices. Additionally, I integrated real-time updates, so project data reflects changes instantly when tasks are added or deleted.”
-                    </p>
-                    <p><strong>Tools:</strong> React, Tailwind CSS, JavaScript</p>
-                </a>
-            </div>
-        </div>
-    </section>
-    <br>
-    <section id="experience">
-        <div class="experience-container">
-        <h2>Experience</h2><br>
-            <h2>Software Engineer</h2>
-            <p><strong>Company:</strong> Think and Learn Pvt Ltd (BYJU’S)</p>
-            <p><strong>Duration:</strong> June 2021 - November 2022</p>
-            <p>Worked as a Front-End Developer for the Toppr team using Agile methodologies.Built responsive and dynamic UIs with ReactJS, Redux, Tailwind CSS, and Bootstrap.Enhanced functionality and performance through a comprehensive tech stack overhaul.Developed reusable CSS utility components to improve maintainability and developer experience.</p>
-            </ul>
-             <h2>Software Engineer</h2>
-            <p><strong>Company:</strong> Amdocs</p>
-            <p><strong>Duration:</strong> November 2022 - June 2023</p>
-            <p>Worked as Front end devloper.Implemented state management using Redux for efficient data flow.Optimized website performance and SEO
-improving page load speed.Integrated RESTful APIs to fetch and display dynamic content.Ensured cross-browser compatibility and mobile
-responsiveness.Worked in an Agile environment, participating in sprint planning and code reviews</p>
-            </ul>
-        </div>
-    </section>
-    <br>
-    <section id="certifications">
-        <div class="certifications-container">
-            <h2>Certifications</h2>
-            <p>
-                <strong>
-                    <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-2ab81f2c-0503-4adc-bc1b-927568a3d3b6.jpg?v=1739403511000" target="_blank">SnowFlake</a>
-                </strong> SnowPro Core COF-C02
-            </p>
-            <p>
-                <strong>
-                    <a href="https://www.udemy.com/certificate/UC-ddc6cf50-8d9f-43d8-ab86-3179952e0b7e/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">Git</a>
-                </strong> Git With Visual Studio Code
-            </p>
-        </div>
-    </section>
-    <br>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <section id="contact">
-        <div class="contact-container">
-        <h2>Contact Me</h2>
-        <p><strong>Email:</strong> <a href="mailto:ravitejakam@gmail.com">ravitejakam@gmail.com</a></p>
-        <p><strong>Email:</strong> <a href="mailto:rknkn@umsystem.edu">rknkn@umsystem.edu</a></p>
-        <p><strong>Phone:</strong> +1 737-703-9503</p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ravi-teja-kambhampati-2a77ba209" target="_blank">Ravi Teja Kambhampati</a></p>
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="glitch" data-text="Ravi Teja Kambhampati">
+            Ravi Teja Kambhampati
+          </h1>
+          <div class="hero-subtitle">
+            <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+          </div>
+          <div class="hero-buttons">
+            <a href="RaviTeja_Resume.pdf" download class="btn primary-btn"
+              ><i class="fas fa-file-download"></i> Resume</a
+            >
+            <a href="#projects" class="btn secondary-btn"
+              ><i class="fas fa-code"></i> View Work</a
+            >
+          </div>
+
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/ravi-teja-kambhampati-2a77ba209"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/RavitejaKambhampati237" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="mailto:ravitejakam@gmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
         </div>
+        <div class="hero-image">
+          <img
+            src="ResumePicture.jpg"
+            alt="Ravi Teja Kambhampati"
+            class="profile-image"
+          />
+        </div>
+      </div>
     </section>
+
+    <section id="about" class="about">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Currently pursuing a
+              <span class="highlight">Master's in Computer Science</span>, I am
+              a passionate
+              <span class="highlight">JavaScript Developer</span> with expertise
+              in <span class="highlight">React.js</span> and
+              <span class="highlight">Data Analytics</span>. I specialize in
+              building scalable front-end applications and leveraging
+              <span class="highlight">AWS Cloud services</span>.
+            </p>
+            <p>
+              With a deep interest in
+              <span class="highlight">AI and Machine Learning</span>, I have
+              hands-on experience in deep learning and
+              <span class="highlight">speech recognition</span>. I thrive on
+              solving complex problems and optimizing system performance for
+              <span class="highlight">data-driven applications</span>.
+            </p>
+            <div class="about-buttons">
+              <a href="RaviTeja_Resume.pdf" download class="btn primary-btn"
+                ><i class="fas fa-file-download"></i> Resume</a
+              >
+              <a
+                href="RaviTeja_Kambhampati_coverletter.pdf"
+                download
+                class="btn secondary-btn"
+                ><i class="fas fa-file-alt"></i> Cover Letter</a
+              >
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-box">
+              <span class="stat-number">2+</span>
+              <span class="stat-title">Years Experience</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">10+</span>
+              <span class="stat-title">Projects</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">2</span>
+              <span class="stat-title">Certifications</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-<br>
+
+    <section id="skills" class="skills">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Technical Skills</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="skills-content">
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Languages</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">C</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-laptop-code"></i> Web Technologies</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">HTML5</span>
+              <span class="skill-pill">CSS3</span>
+              <span class="skill-pill">ReactJS</span>
+              <span class="skill-pill">Redux</span>
+              <span class="skill-pill">Bootstrap</span>
+              <span class="skill-pill">Tailwind</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-database"></i> Data & Cloud</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">AWS</span>
+              <span class="skill-pill">Scikit-learn</span>
+              <span class="skill-pill">Pandas</span>
+              <span class="skill-pill">NumPy</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Developer Tools</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">Linux</span>
+              <span class="skill-pill">Unix</span>
+              <span class="skill-pill">PowerShell</span>
+              <span class="skill-pill">Shell Scripting</span>
+              <span class="skill-pill">Excel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Featured Projects</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-content">
+              <div class="project-tags">
+                <span>Data Analysis</span>
+                <span>Python</span>
+              </div>
+              <h3>Uber Data Analysis</h3>
+              <p>
+                In-depth analysis of Uber trip datasets focusing on data
+                cleaning, handling missing values and outliers, and ensuring
+                data consistency. Used visualizations to uncover trends in trip
+                patterns and statistical techniques to analyze trip purposes.
+              </p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>NumPy</span>
+                <span>Scikit-learn</span>
+                <span>Matplotlib</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/RavitejaKambhampati237/uber_data_analysis"
+                  target="_blank"
+                  class="btn project-btn"
+                  ><i class="fab fa-github"></i> View Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <div class="project-tags">
+                <span>Full Stack</span>
+                <span>Security</span>
+              </div>
+              <h3>Real Time Threat Intelligence</h3>
+              <p>
+                Comprehensive full-stack application integrating various modules
+                including Asset Management, Threat Intelligence, Vulnerability
+                Risk Assessment, Incident Response, and Crisis Management with
+                two-factor authentication.
+              </p>
+              <div class="project-tech">
+                <span>ReactJS</span>
+                <span>NodeJS</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn project-btn disabled"
+                  ><i class="fas fa-lock"></i> Private Repo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <div class="project-tags">
+                <span>Web App</span>
+                <span>React</span>
+              </div>
+              <h3>Project Management Application</h3>
+              <p>
+                A project management application built with React, enabling
+                users to create and manage projects, tasks, and track due dates.
+                Features include comprehensive task management with a fully
+                responsive design using Tailwind CSS.
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Tailwind CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/RavitejaKambhampati237/project_management"
+                  target="_blank"
+                  class="btn project-btn"
+                  ><i class="fab fa-github"></i> View Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Work Experience</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">
+              <span>Nov 2022 - Jun 2023</span>
+            </div>
+            <div class="timeline-content">
+              <h3>Software Engineer</h3>
+              <h4>Amdocs</h4>
+              <ul>
+                <li>
+                  Implemented state management using Redux for efficient data
+                  flow
+                </li>
+                <li>
+                  Optimized website performance and SEO improving page load
+                  speed
+                </li>
+                <li>
+                  Integrated RESTful APIs to fetch and display dynamic content
+                </li>
+                <li>
+                  Ensured cross-browser compatibility and mobile responsiveness
+                </li>
+                <li>
+                  Worked in an Agile environment, participating in sprint
+                  planning and code reviews
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">
+              <span>Jun 2021 - Nov 2022</span>
+            </div>
+            <div class="timeline-content">
+              <h3>Software Engineer</h3>
+              <h4>Think and Learn Pvt Ltd (BYJU'S)</h4>
+              <ul>
+                <li>
+                  Worked as a Front-End Developer for the Toppr team using Agile
+                  methodologies
+                </li>
+                <li>
+                  Built responsive and dynamic UIs with ReactJS, Redux, Tailwind
+                  CSS, and Bootstrap
+                </li>
+                <li>
+                  Enhanced functionality and performance through a comprehensive
+                  tech stack overhaul
+                </li>
+                <li>
+                  Developed reusable CSS utility components to improve
+                  maintainability and developer experience
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Certifications</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="cert-grid">
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="cert-content">
+              <h3>SnowFlake</h3>
+              <p>SnowPro Core COF-C02</p>
+              <a
+                href="https://udemy-certificate.s3.amazonaws.com/image/UC-2ab81f2c-0503-4adc-bc1b-927568a3d3b6.jpg?v=1739403511000"
+                target="_blank"
+                class="btn cert-btn"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fab fa-git-alt"></i>
+            </div>
+            <div class="cert-content">
+              <h3>Git</h3>
+              <p>Git With Visual Studio Code</p>
+              <a
+                href="https://www.udemy.com/certificate/UC-ddc6cf50-8d9f-43d8-ab86-3179952e0b7e/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email"
+                target="_blank"
+                class="btn cert-btn"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>
+                  <a href="mailto:ravitejakam@gmail.com"
+                    >ravitejakam@gmail.com</a
+                  >
+                </p>
+                <p>
+                  <a href="mailto:rknkn@umsystem.edu">rknkn@umsystem.edu</a>
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <p>+1 737-703-9503</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="contact-details">
+                <h3>LinkedIn</h3>
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/ravi-teja-kambhampati-2a77ba209"
+                    target="_blank"
+                    >Connect with me</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Subject" />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn primary-btn">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Ravi Teja Kambhampati</p>
+      <div class="footer-content">
+        <div class="footer-logo">RK</div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a
+            href="https://www.linkedin.com/in/ravi-teja-kambhampati-2a77ba209"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/RavitejaKambhampati237" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:ravitejakam@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2025 Ravi Teja Kambhampati. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
