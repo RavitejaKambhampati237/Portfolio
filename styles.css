@@ -43,15 +43,17 @@ ul {
 .section-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 80px 20px;
+  padding: 0 20px;
 }
 
 .section-header {
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .section-header h2 {
+  margin-top: 30px;
   font-family: "Raleway", sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
@@ -427,6 +429,30 @@ ul {
 /* About Section */
 .about {
   background-color: white;
+  padding: 80px 0; /* Added significant padding at top and bottom */
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-header {
+  margin-bottom: 50px; /* Increased space after the header */
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.underline {
+  height: 3px;
+  width: 80px;
+  background-color: var(--primary-color);
+  margin: 0 auto;
 }
 
 .about-content {
@@ -434,6 +460,8 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   gap: 40px;
+  margin-top: 40px; /* Added space between header and content */
+  margin-bottom: 20px; /* Added space at bottom of content */
 }
 
 .about-text {
@@ -493,12 +521,38 @@ ul {
 /* Skills Section */
 .skills {
   background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 80px 0; /* Added significant padding at top and bottom */
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-header {
+  margin-bottom: 50px; /* Increased space after the header */
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.underline {
+  height: 3px;
+  width: 80px;
+  background-color: var(--primary-color);
+  margin: 0 auto;
 }
 
 .skills-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
+  margin-top: 40px; /* Added space between header and grid */
+  margin-bottom: 20px; /* Added space at bottom of grid */
 }
 
 .skill-category {
@@ -551,12 +605,38 @@ ul {
 /* Projects Section */
 .projects {
   background-color: white;
+  padding: 80px 0; /* Added significant padding at top and bottom */
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-header {
+  margin-bottom: 50px; /* Increased space after the header */
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.underline {
+  height: 3px;
+  width: 80px;
+  background-color: var(--primary-color);
+  margin: 0 auto;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 30px;
+  margin-top: 40px; /* Added space between header and grid */
+  margin-bottom: 20px; /* Added space at bottom of grid */
 }
 
 .project-card {
@@ -626,12 +706,36 @@ ul {
 /* Experience Section */
 .experience {
   background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 80px 0; /* Increased padding at top and bottom */
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-header {
+  margin-bottom: 50px; /* Increased space after the header */
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.underline {
+  height: 3px;
+  width: 80px;
+  background-color: var(--primary-color);
+  margin: 0 auto;
 }
 
 .timeline {
   position: relative;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 40px auto; /* Added margin above and below timeline */
 }
 
 .timeline::before {
@@ -648,6 +752,10 @@ ul {
   position: relative;
   margin-bottom: 50px;
   margin-left: 60px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 20px; /* Space after last item */
 }
 
 .timeline-dot {
@@ -714,12 +822,41 @@ ul {
 /* Certifications Section */
 .certifications {
   background-color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-header {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.section-header h2 {
+  margin-top: 30px;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.underline {
+  height: 3px;
+  width: 80px;
+  background-color: var(--primary-color);
+  margin: 0 auto;
 }
 
 .cert-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .cert-card {
@@ -730,6 +867,7 @@ ul {
   box-shadow: var(--box-shadow);
   transition: var(--transition);
   padding: 20px;
+  text-align: left;
 }
 
 .cert-card:hover {
@@ -765,15 +903,57 @@ ul {
   color: var(--text-color);
 }
 
+.cert-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.cert-btn:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
 /* Contact Section */
 .contact {
   background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 80px 0; /* Added significant padding at top and bottom */
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-header {
+  margin-bottom: 50px; /* Increased space after the header */
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.underline {
+  height: 3px;
+  width: 80px;
+  background-color: var(--primary-color);
+  margin: 0 auto;
 }
 
 .contact-content {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+  margin-top: 40px; /* Added space between header and content */
+  margin-bottom: 20px; /* Added space at bottom of content */
 }
 
 .contact-info,
