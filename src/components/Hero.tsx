@@ -115,7 +115,7 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-blue-500/10 rounded-full blur-2xl opacity-70 group-hover:blur-3xl transition-all duration-500"></div>
 
                 <img
-                  src="/ResumePicture.jpg"
+                  src={`${import.meta.env.BASE_URL}ResumePicture.jpg`}
                   alt="Ravi Teja"
                   className="w-full h-full object-cover rounded-full border-4 border-white/10 opacity-90"
                 />
