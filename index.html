@@ -1,129 +1,574 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ravi Teja Kambhampati Portfolio</title>
-    <img src="ResumePicture.jpg" alt="Ravi Teja Kambhampati" class="profile-image">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="header-content">
-            <h1 class="animated-text">Ravi Teja Kambhampati</h1>
-            <p>Aspiring Software Engineer | Front-End Developer | Data Analyst</p>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#experience">Experience</a>
-                <a href="#certifications">Certifications</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
-    </header>
-    <br>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ravi Teja Kambhampati | Premium Portfolio</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-    <section id="about">
-        <div class="about-container">
-            <h2>About Me</h2>
+    <link href="/portfolio.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+      <div class="bg-orb"></div>
+      <div class="bg-orb"></div>
+      <div class="bg-orb"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Ravi Teja Kambhampati</h1>
+        <p class="hero-subtitle">Full Stack Developer</p>
+        <p class="hero-description">
+          I build scalable, secure, and high-performance web applications with
+          modern technologies like React, Spring Boot, AWS, and Docker.
+          Passionate about clean code, performance optimization, and bringing
+          ideas to life through tech.
+        </p>
+
+        <div class="cta-buttons">
+          <a
+            href="https://drive.google.com/file/d/1Ynzy-CDiCC5qfTUyrH_HUVxYVEcTfGnS/view?usp=drive_link"
+            target="_blank"
+            class="btn btn-secondary"
+          >
+            <i class="fas fa-download"></i>
+            Download Resume
+          </a>
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-code"></i>
+            View My Work
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/ravi-teja-kambhampati-2a77ba209"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/ravitejakambhampati237"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:ravitejakambhampati23@gmail.com" class="social-icon">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="reveal">
+      <h2 class="section-title">About Me</h2>
+      <div class="glass-card">
+        <div class="about-grid">
+          <div>
+            <img
+              src="./ResumePicture.jpg"
+              alt="Ravi Teja Kambhampati"
+              class="profile-image"
+            />
+          </div>
+          <div class="about-text">
             <p>
-                Currently pursuing a <strong>Master’s in Computer Science</strong>, I am a 
-                <strong>JavaScript Developer</strong> with expertise in <strong>React.js</strong> and also i am passionate in 
-                <strong>Data Analytics</strong>. I specialize in building scalable front-end 
-                applications and leveraging <strong>AWS Cloud services</strong>.  
+              I'm a
+              <span class="highlight">Full Stack Developer</span>
+              specializing in
+              <span class="highlight"
+                >React.js, Spring Boot, and cloud-native solutions</span
+              >. I build secure, scalable applications with modern web
+              technologies and intuitive user experiences.
             </p>
+            <br />
             <p>
-                Passionate about <strong>AI and Machine Learning</strong>, I have hands-on experience 
-                in deep learning and <strong>speech recognition</strong>. I thrive on problem-solving 
-                and optimizing system performance for <strong>data-driven applications</strong>.
+              With a strong foundation in
+              <span class="highlight"
+                >JavaScript, Java 11, TypeScript, and Python</span
+              >, I enjoy solving complex problems, crafting reusable UI
+              components, and implementing efficient backend microservices.
             </p>
-            <a href="RaviTeja_Resume.pdf" download class="btn">📄 Download Resume</a>
-            <a href="RaviTeja_Kambhampati_coverletter.pdf" download class="btn">📜 Download Cover Letter</a>
+            <br />
+            <p>
+              I have hands-on experience with
+              <span class="highlight"
+                >AWS, Docker, Kubernetes, Kafka, and JWT-based security</span
+              >. I'm passionate about building reliable systems with clean code,
+              optimized performance, and real-time capabilities.
+            </p>
+            <br />
+            <p>
+              When I'm not coding, I explore new technologies, contribute to
+              open-source, and share knowledge with the tech community.
+            </p>
+          </div>
         </div>
+      </div>
+
+      <!-- Stats Section -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">4+</div>
+          <div class="stat-title">Years Experience</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">10+</div>
+          <div class="stat-title">Projects Completed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">2+</div>
+          <div class="stat-title">Certifications</div>
+        </div>
+      </div>
     </section>
-<br>
-    <section id="skills">
-        <div class="skills-container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-box"><strong>Languages:</strong> Python, JavaScript, Java, C</div>
-                <div class="skill-box"><strong>Additional:</strong> Data Structures, OOP</div>
-                <div class="skill-box"><strong>Web Technologies:</strong> HTML, CSS</div>
-                <div class="skill-box"><strong>Frameworks & Libraries:</strong> ReactJS, Scikit-learn, Pandas, NumPy, Bootstrap, Tailwind</div>
-                <div class="skill-box"><strong>Developer Tools:</strong> Linux, Unix, PowerShell, Shell Scripting, Excel, Git</div>
-                <div class="skill-box"><strong>Databases:</strong> SQL, MySQL</div>
-                <div class="skill-box"><strong>Cloud:</strong> AWS</div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="reveal">
+      <h2 class="section-title">Technical Skills</h2>
+
+      <div class="skills-grid">
+        <div class="glass-card skill-category">
+          <h3><i class="fas fa-code"></i> Frontend Development</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">ReactJS</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">Redux</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">JavaScript (ES6+)</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">Tailwind CSS</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">AngularJS</span>
+            <span class="skill-tag">Vue.js</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-category">
+          <h3><i class="fas fa-database"></i> Backend & Database</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Java 11 (Spring Boot)</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Python (Flask, Django)</span>
+            <span class="skill-tag">Hibernate</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Microservices</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-category">
+          <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS (EC2, S3, RDS, ECS, EKS)</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">CI/CD (Jenkins, Git)</span>
+            <span class="skill-tag">CloudWatch</span>
+            <span class="skill-tag">Splunk</span>
+            <span class="skill-tag">ELK Stack</span>
+            <span class="skill-tag">Azure</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-category">
+          <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">VSCode</span>
+            <span class="skill-tag">IntelliJ</span>
+            <span class="skill-tag">Jira</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">Jest</span>
+            <span class="skill-tag">React Testing Library</span>
+            <span class="skill-tag">Linux/Unix</span>
+            <span class="skill-tag">Kafka</span>
+            <span class="skill-tag">RabbitMQ</span>
+            <span class="skill-tag">JWT/CSRF Security</span>
+            <span class="skill-tag">Webpack</span>
+            <span class="skill-tag">Babel</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="reveal">
+      <h2 class="section-title">Featured Projects</h2>
+
+      <div class="projects-grid">
+        <div class="glass-card project-card">
+          <div class="project-info">
+            <h3>Uber Data Analysis</h3>
+            <p class="project-description">
+              In-depth analysis of Uber trip datasets focusing on data cleaning,
+              handling missing values and outliers, and ensuring data
+              consistency. Visualizations uncover trends and statistical
+              techniques analyze trip purposes.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">NumPy</span>
+              <span class="tech-tag">Scikit-learn</span>
+              <span class="tech-tag">Matplotlib</span>
             </div>
+            <a
+              href="https://github.com/RavitejaKambhampati237/uber_data_analysis"
+              class="project-link"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
+              View on GitHub
+            </a>
+          </div>
         </div>
-    </section>
-    <br>
-    <section id="projects">
-        <div class="projects-container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <a href="https://github.com/RavitejaKambhampati237/uber_data_analysis" class="project-card">
-                    <h3>Uber Data Analysis</h3>
-                    <p>“I worked on analyzing the Uber trip dataset, focusing on data cleaning, handling missing values and outliers, and ensuring data consistency. I performed exploratory data analysis (EDA) using various visualizations to uncover trends in trip patterns, mileage distribution, and trip purposes. I also used statistical techniques to gain insights into the distribution of business vs. personal trips and their mileage patterns.”</p>
-                    <p><strong>Tools:</strong>Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn</p>
-                </a>
-                <a href="" class="project-card">
-                    <h3>Real Time Threat Intelligence </h3>
-                    <p>Developed a comprehensive full stack application integrating various modules including Asset Management, Threat
-                        Intelligence, Vulnerability Risk Assessment, Incident Response, and Crisis Management.Implemented two factor authentication for login and Signup.</p>
-                    <p><strong>Tools:</strong> ReactJS, NodeJS, HTML, CSS, Javascript, MongoDB</p>
-                </a>
-                <a href="https://github.com/RavitejaKambhampati237/project_management" class="project-card">
-                    <h3>Project Management Application</h3>
-                    <p>I developed a project management application using React, enabling users to create and manage projects, tasks, and track due dates. I implemented features for task management, such as adding, viewing, and deleting tasks, to help streamline project workflows. The application was built with a fully responsive design using Tailwind CSS, ensuring a seamless experience across desktop and mobile devices. Additionally, I integrated real-time updates, so project data reflects changes instantly when tasks are added or deleted.”
-                    </p>
-                    <p><strong>Tools:</strong> React, Tailwind CSS, JavaScript</p>
-                </a>
+
+        <div class="glass-card project-card">
+          <div class="project-info">
+            <h3>Real Time Threat Intelligence</h3>
+            <p class="project-description">
+              Comprehensive full-stack application integrating modules like
+              Asset Management, Threat Intelligence, Vulnerability Risk
+              Assessment, Incident Response, and Crisis Management with
+              two-factor authentication.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">ReactJS</span>
+              <span class="tech-tag">NodeJS</span>
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">MongoDB</span>
             </div>
+            <span class="project-link disabled">
+              <i class="fas fa-lock"></i>
+              Private Repo
+            </span>
+          </div>
         </div>
+
+        <div class="glass-card project-card">
+          <div class="project-info">
+            <h3>Project Management Application</h3>
+            <p class="project-description">
+              A project management application built with React, allowing users
+              to create and manage projects, tasks, and track due dates. Fully
+              responsive design with Tailwind CSS for seamless task management.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Tailwind CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <a
+              href="https://github.com/RavitejaKambhampati237/project_management"
+              class="project-link"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
-    <br>
-    <section id="experience">
-        <div class="experience-container">
-        <h2>Experience</h2><br>
-            <h2>Software Engineer</h2>
-            <p><strong>Company:</strong> Think and Learn Pvt Ltd (BYJU’S)</p>
-            <p><strong>Duration:</strong> December 2021 - November 2022</p>
-            <p>Worked as a Front-End Developer for the Toppr team using Agile methodologies.Built responsive and dynamic UIs with ReactJS, Redux, Tailwind CSS, and Bootstrap.Enhanced functionality and performance through a comprehensive tech stack overhaul.Developed reusable CSS utility components to improve maintainability and developer experience.</p>
+
+    <!-- Experience Section -->
+    <section id="experience" class="reveal">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="glass-card">
+        <div class="experience-timeline">
+          <!-- Wells Fargo -->
+          <div class="experience-item">
+            <div class="experience-date">Jan 2024 - Present</div>
+            <h3 class="experience-title">Full Stack Java Developer</h3>
+            <p class="experience-company">Wells Fargo</p>
+            <p class="experience-location">San Francisco, CA (Remote)</p>
+            <ul class="experience-description">
+              <li>
+                Designed and developed RESTful APIs and microservices using Java
+                11, Spring Boot, and Hibernate.
+              </li>
+              <li>
+                Built responsive UI with React, integrated backend services via
+                REST APIs for smooth user experience.
+              </li>
+              <li>
+                Implemented scalable state management using Redux, Context API,
+                and React Query.
+              </li>
+              <li>
+                Developed Kafka Stream modules for real-time data processing
+                with Zookeeper.
+              </li>
+              <li>
+                Configured and optimized PostgreSQL, implemented query
+                performance improvements.
+              </li>
+              <li>
+                Deployed secure, scalable solutions on AWS EC2, S3, RDS, ECS,
+                and EKS with CI/CD pipelines via Jenkins.
+              </li>
+              <li>
+                Integrated Splunk for centralized logging, enhanced monitoring
+                with ELK Stack and CloudWatch.
+              </li>
+              <li>
+                Enhanced API security using Node.js, Express.js, JWT, and CSRF
+                protection.
+              </li>
             </ul>
-        </div>
-    </section>
-    <br>
-    <section id="certifications">
-        <div class="certifications-container">
-            <h2>Certifications</h2>
-            <p>
-                <strong>
-                    <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-2ab81f2c-0503-4adc-bc1b-927568a3d3b6.jpg?v=1739403511000" target="_blank">SnowFlake</a>
-                </strong> SnowPro Core COF-C02
-            </p>
-            <p>
-                <strong>
-                    <a href="https://www.udemy.com/certificate/UC-ddc6cf50-8d9f-43d8-ab86-3179952e0b7e/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">Git</a>
-                </strong> Git With Visual Studio Code
-            </p>
-        </div>
-    </section>
-    <br>
+            <div class="experience-tech">
+              <span class="tech-tag">Java 11</span>
+              <span class="tech-tag">Spring Boot</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Redux</span>
+              <span class="tech-tag">Kafka</span>
+              <span class="tech-tag">AWS</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Kubernetes</span>
+              <span class="tech-tag">Splunk</span>
+              <span class="tech-tag">ELK Stack</span>
+              <span class="tech-tag">JWT</span>
+            </div>
+          </div>
 
-    <section id="contact">
-        <div class="contact-container">
-        <h2>Contact Me</h2>
-        <p><strong>Email:</strong> <a href="mailto:ravitejakam@gmail.com">ravitejakam@gmail.com</a></p>
-        <p><strong>Email:</strong> <a href="mailto:rknkn@umsystem.edu">rknkn@umsystem.edu</a></p>
-        <p><strong>Phone:</strong> +1 737-703-9503</p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ravi-teja-kambhampati-2a77ba209" target="_blank">Ravi Teja Kambhampati</a></p>
+          <!-- Amdocs -->
+          <div class="experience-item">
+            <div class="experience-date">Nov 2022 - Jun 2023</div>
+            <h3 class="experience-title">Full Stack Developer</h3>
+            <p class="experience-company">Amdocs</p>
+            <p class="experience-location">Hyderabad, India</p>
+            <ul class="experience-description">
+              <li>
+                Developed scalable microservices with Spring Boot, integrated
+                with Feign Clients and Kafka.
+              </li>
+              <li>
+                Implemented JWT-based authentication and role-based access with
+                Spring Security.
+              </li>
+              <li>
+                Built interactive, responsive UIs using ReactJS, Next.js, Redux,
+                and Tailwind CSS.
+              </li>
+              <li>
+                Optimized SEO and performance with Next.js SSR, lazy loading,
+                and accessibility standards.
+              </li>
+              <li>
+                Containerized applications using Docker, deployed on Kubernetes
+                with AWS EC2 and S3.
+              </li>
+              <li>
+                Automated builds and deployments with Jenkins, Maven, and Git
+                for continuous delivery.
+              </li>
+              <li>
+                Collaborated in Agile teams, conducted code reviews, and
+                improved backend performance.
+              </li>
+            </ul>
+            <div class="experience-tech">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">Spring Boot</span>
+              <span class="tech-tag">ReactJS</span>
+              <span class="tech-tag">Next.js</span>
+              <span class="tech-tag">Redux</span>
+              <span class="tech-tag">Tailwind CSS</span>
+              <span class="tech-tag">JWT</span>
+              <span class="tech-tag">Kafka</span>
+              <span class="tech-tag">AWS</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Kubernetes</span>
+              <span class="tech-tag">Jenkins</span>
+            </div>
+          </div>
+
+          <!-- BYJU'S -->
+          <div class="experience-item">
+            <div class="experience-date">Jun 2021 - Nov 2022</div>
+            <h3 class="experience-title">Software Engineer - Frontend</h3>
+            <p class="experience-company">BYJU'S (Toppr)</p>
+            <p class="experience-location">Bengaluru, India</p>
+            <ul class="experience-description">
+              <li>
+                Modernized frontend with React 18, Webpack 5, and Babel,
+                improving page load speed by 30%.
+              </li>
+              <li>
+                Built reusable UI components following atomic design principles
+                to reduce code duplication.
+              </li>
+              <li>
+                Transformed Figma designs into pixel-perfect, responsive
+                interfaces using Tailwind CSS and Bootstrap.
+              </li>
+              <li>
+                Managed asynchronous data flows using Axios, Redux, Thunk, and
+                Context API.
+              </li>
+              <li>
+                Enhanced usability with form validation, dynamic rendering, and
+                conditional logic.
+              </li>
+              <li>
+                Integrated REST APIs, improved client-side performance with lazy
+                loading and code splitting.
+              </li>
+              <li>
+                Maintained CI/CD pipelines with Jenkins and Git, ensured code
+                quality with Jest and React Testing Library.
+              </li>
+            </ul>
+            <div class="experience-tech">
+              <span class="tech-tag">ReactJS</span>
+              <span class="tech-tag">Redux</span>
+              <span class="tech-tag">Context API</span>
+              <span class="tech-tag">Tailwind CSS</span>
+              <span class="tech-tag">Bootstrap</span>
+              <span class="tech-tag">Axios</span>
+              <span class="tech-tag">Webpack</span>
+              <span class="tech-tag">Jest</span>
+              <span class="tech-tag">Jenkins</span>
+              <span class="tech-tag">Firebase</span>
+              <span class="tech-tag">MongoDB</span>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="reveal">
+      <h2 class="section-title">Certifications</h2>
+      <div class="glass-card" style="text-align: center">
+        <a
+          href="https://udemy-certificate.s3.amazonaws.com/image/UC-2ab81f2c-0503-4adc-bc1b-927568a3d3b6.jpg?v=1739403511000"
+          target="_blank"
+          class="certification-badge"
+        >
+          <div class="certification-icon">
+            <i class="fas fa-snowflake"></i>
+          </div>
+          <div>
+            <strong>SnowFlake</strong>
+            <br />
+            <small>SnowPro Core COF-C02</small>
+          </div>
+        </a>
+
+        <a
+          href="https://www.udemy.com/certificate/UC-ddc6cf50-8d9f-43d8-ab86-3179952e0b7e/"
+          target="_blank"
+          class="certification-badge"
+        >
+          <div class="certification-icon">
+            <i class="fab fa-git-alt"></i>
+          </div>
+          <div>
+            <strong>Git</strong>
+            <br />
+            <small>Git With Visual Studio Code</small>
+          </div>
+        </a>
+      </div>
     </section>
-<br>
-    <footer>
-        <p>&copy; 2025 Ravi Teja Kambhampati</p>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+      <h2 class="section-title">Let's Connect</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-info">
+            <h4>Email</h4>
+            <a href="mailto:ravitejakam@gmail.com">ravitejakam@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="contact-info">
+            <h4>Phone</h4>
+            <a href="tel:+17377039503">+1 737-703-9503</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <div class="contact-info">
+            <h4>LinkedIn</h4>
+            <a
+              href="https://www.linkedin.com/in/ravi-teja-kambhampati-2a77ba209"
+              target="_blank"
+              >Connect with me</a
+            >
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="contact-info">
+            <h4>University Email</h4>
+            <a href="mailto:rknkn@umsystem.edu">rknkn@umsystem.edu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      style="
+        text-align: center;
+        padding: 40px 0;
+        background: rgba(0, 0, 0, 0.5);
+        margin-top: 100px;
+      "
+    >
+      <p style="color: var(--text-secondary)">
+        &copy; 2025 Ravi Teja Kambhampati. Crafted with passion and precision.
+      </p>
     </footer>
-</body>
+
+    <script src="portfolio.js"></script>
+  </body>
 </html>
